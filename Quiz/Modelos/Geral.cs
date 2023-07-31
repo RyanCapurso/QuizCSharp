@@ -2,10 +2,9 @@
 internal class Geral
 {
     int pontos = 0;
-    string opcaoEscolhida = "";
     public int ConverteOpcaoEscolhida(string opcaoTexto)
     {
-        return int.Parse(opcaoEscolhida);
+        return int.Parse(opcaoTexto);
     }
     public void VerificaResposta(int indiceResposta)
     {

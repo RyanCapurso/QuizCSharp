@@ -1,9 +1,10 @@
-﻿namespace Quiz.Modelos;
+﻿using Quiz.Modelos;
+
+namespace Quiz.Temas;
 internal class Jogos
 {
     public void TemaJogos()
     {
-
         Console.Clear();
         Console.WriteLine("Pergunta 1");
         Console.WriteLine("1 - Respota Errada");

@@ -1,6 +1,5 @@
 ﻿using Quiz.Modelos;
-
-
+using Quiz.Temas;
 
 ExibirMenu();
 void ExibirMenu()
@@ -17,7 +16,9 @@ void ExibirMenu()
 
     Console.Write("Selecione o tema do Quiz que deseja jogar: ");
     string opcaoEscolhida = Console.ReadLine()!;
+    
     Geral geral = new Geral();
+
     switch (geral.ConverteOpcaoEscolhida(opcaoEscolhida))
     {
         case 1:
@@ -40,5 +41,3 @@ void ExibirMenu()
             break;
     }
 }
-
-
